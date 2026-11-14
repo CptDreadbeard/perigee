@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a function that does not operate correctly
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Perigee version
+      description: You can find the version in the About panel.
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What occurred
+      description: Describe what you did, what you expected and what occurred.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the app.
+        2. Click ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output
+      description: Remove personal data, for example your user name in file paths.
+      render: text

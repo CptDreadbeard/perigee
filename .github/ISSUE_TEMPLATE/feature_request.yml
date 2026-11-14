@@ -1,0 +1,30 @@
+name: Feature request
+description: Propose a new function or a change
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe what you want to do and cannot do now.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the function that you propose.
+    validations:
+      required: true
+  - type: textarea
+    id: data-source
+    attributes:
+      label: Data source
+      description: If the function needs new data, name a public source. Perigee has no backend.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: The function needs no account, no server and no telemetry.
+          required: true
