@@ -33,19 +33,19 @@ Your task is to make the developer understand the code.
 
 ## Comparisons to use
 
-| Rust | C#, Go or TypeScript |
-| --- | --- |
-| `struct` and `impl` | A C# class without inheritance |
-| `trait` | An interface with default methods |
-| `enum` with data | A TypeScript discriminated union |
-| `Result<T, E>` and `?` | Go `(value, err)` with a short return. It replaces exceptions. |
-| `Option<T>` | `T?` in C#. The compiler makes the check mandatory. |
-| Ownership and borrows | No garbage collector. One owner for each value. `&` and `&mut` are checked references. |
-| `Arc<Mutex<T>>` | A shared object with a `lock` in C# |
-| Channels (`mpsc`) | Go channels |
-| `async` and `await` with tokio | C# `async` and `await`. A Rust future does nothing until a runtime polls it. |
-| `#[derive(Serialize)]` | `System.Text.Json` source generation, or Go struct tags |
-| Cargo workspace | A .NET solution with projects |
+| Rust                           | C#, Go or TypeScript                                                                   |
+| ------------------------------ | -------------------------------------------------------------------------------------- |
+| `struct` and `impl`            | A C# class without inheritance                                                         |
+| `trait`                        | An interface with default methods                                                      |
+| `enum` with data               | A TypeScript discriminated union                                                       |
+| `Result<T, E>` and `?`         | Go `(value, err)` with a short return. It replaces exceptions.                         |
+| `Option<T>`                    | `T?` in C#. The compiler makes the check mandatory.                                    |
+| Ownership and borrows          | No garbage collector. One owner for each value. `&` and `&mut` are checked references. |
+| `Arc<Mutex<T>>`                | A shared object with a `lock` in C#                                                    |
+| Channels (`mpsc`)              | Go channels                                                                            |
+| `async` and `await` with tokio | C# `async` and `await`. A Rust future does nothing until a runtime polls it.           |
+| `#[derive(Serialize)]`         | `System.Text.Json` source generation, or Go struct tags                                |
+| Cargo workspace                | A .NET solution with projects                                                          |
 
 ## Limits
 

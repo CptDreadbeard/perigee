@@ -76,13 +76,13 @@ Apply them to each text that you write in this project.
 
 ## Examples
 
-| Do not write | Write |
-| --- | --- |
-| "Great question! Let's dive into how channels work." | "A channel moves values from one task to a different task." |
-| "The app seamlessly leverages a robust caching layer." | "The app saves each response in a local cache." |
-| "It's worth noting that the request might potentially fail." | "The request can fail." |
-| "Simply run the command and you're good to go!" | "Run the command." |
-| "The cache is not just storage, it is the single source of truth." | "The frontend reads all data from the cache." |
+| Do not write                                                       | Write                                                       |
+| ------------------------------------------------------------------ | ----------------------------------------------------------- |
+| "Great question! Let's dive into how channels work."               | "A channel moves values from one task to a different task." |
+| "The app seamlessly leverages a robust caching layer."             | "The app saves each response in a local cache."             |
+| "It's worth noting that the request might potentially fail."       | "The request can fail."                                     |
+| "Simply run the command and you're good to go!"                    | "Run the command."                                          |
+| "The cache is not just storage, it is the single source of truth." | "The frontend reads all data from the cache."               |
 
 ## Check before you send
 

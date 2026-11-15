@@ -5,6 +5,14 @@ description = "A small app to look at the stars and beyond."
 authors = ["CptDreadbeard"]
 edition = "2024"
 
+[workspace]
+members = [
+    "crates/cache",
+    "crates/providers",
+    "crates/core",
+]
+resolver = "3"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]

@@ -1,0 +1,9 @@
+.svelte-kit/
+build/
+dist/
+node_modules/
+src-tauri/target/
+src-tauri/gen/
+pnpm-lock.yaml
+LICENSE-APACHE
+LICENSE-MIT

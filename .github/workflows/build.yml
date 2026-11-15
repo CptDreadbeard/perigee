@@ -3,7 +3,7 @@ name: build
 on:
   workflow_dispatch:
   push:
-    tags: ["v*"]
+    tags: ['v*']
 
 permissions:
   contents: read
@@ -15,17 +15,17 @@ jobs:
       matrix:
         include:
           - platform: macos-latest
-            args: "--target aarch64-apple-darwin"
+            args: '--target aarch64-apple-darwin'
             rust-targets: aarch64-apple-darwin
           - platform: windows-latest
-            args: ""
-            rust-targets: ""
+            args: ''
+            rust-targets: ''
           - platform: ubuntu-22.04
-            args: ""
-            rust-targets: ""
+            args: ''
+            rust-targets: ''
           - platform: ubuntu-22.04-arm
-            args: ""
-            rust-targets: ""
+            args: ''
+            rust-targets: ''
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v7
@@ -52,7 +52,7 @@ jobs:
 
       - uses: swatinem/rust-cache@v2
         with:
-          workspaces: "./src-tauri -> target"
+          workspaces: './src-tauri -> target'
 
       - run: pnpm install --frozen-lockfile
 

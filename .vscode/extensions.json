@@ -1,7 +1,13 @@
 {
   "recommendations": [
-    "rust-lang.rust-analyzer", "svelte.svelte-vscode", "tauri-apps.tauri-vscode",
-    "tamasfe.even-better-toml", "vadimcn.vscode-lldb", "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode", "usernamehw.errorlens", "github.vscode-github-actions"
+    "rust-lang.rust-analyzer",
+    "svelte.svelte-vscode",
+    "tauri-apps.tauri-vscode",
+    "tamasfe.even-better-toml",
+    "vadimcn.vscode-lldb",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "usernamehw.errorlens",
+    "github.vscode-github-actions"
   ]
 }

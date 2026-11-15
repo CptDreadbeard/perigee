@@ -32,12 +32,12 @@ macOS, Windows and Linux.
 
 Perigee uses data from these sources. Perigee has no affiliation with them.
 
-| Source | Data |
-| --- | --- |
-| Launch Library 2 by The Space Devs | Launches and launch pads |
-| CelesTrak | Orbital elements |
-| NOAA Space Weather Prediction Center | Space weather |
-| NASA | Astronomy picture of the day, Earth imagery |
+| Source                               | Data                                        |
+| ------------------------------------ | ------------------------------------------- |
+| Launch Library 2 by The Space Devs   | Launches and launch pads                    |
+| CelesTrak                            | Orbital elements                            |
+| NOAA Space Weather Prediction Center | Space weather                               |
+| NASA                                 | Astronomy picture of the day, Earth imagery |
 
 ## Build from source
 

@@ -49,16 +49,16 @@ Scope control:
 
 ## 3. Milestones
 
-| Milestone | Content | Release |
-| --- | --- | --- |
-| M0 | Tools, editor, repository, CI | None |
-| M1 | Spike: globe in the WebView, measurements, API fixtures, go or no-go | None |
-| M2 | Data backbone in Rust and the countdown panel | None |
-| M3 | Dashboard grid: schedule, space weather, picture of the day | None |
-| M4 | Interactive globe with satellites and click to inspect | None |
-| M5 | Ambient mode, updater, signing, packages | 0.1 (first public release) |
-| M6 | Launch mode, Deep Space Network panel, pass predictor | 0.2 |
-| M7 | Solar system view | 0.3 |
+| Milestone | Content                                                              | Release                    |
+| --------- | -------------------------------------------------------------------- | -------------------------- |
+| M0        | Tools, editor, repository, CI                                        | None                       |
+| M1        | Spike: globe in the WebView, measurements, API fixtures, go or no-go | None                       |
+| M2        | Data backbone in Rust and the countdown panel                        | None                       |
+| M3        | Dashboard grid: schedule, space weather, picture of the day          | None                       |
+| M4        | Interactive globe with satellites and click to inspect               | None                       |
+| M5        | Ambient mode, updater, signing, packages                             | 0.1 (first public release) |
+| M6        | Launch mode, Deep Space Network panel, pass predictor                | 0.2                        |
+| M7        | Solar system view                                                    | 0.3                        |
 
 Builds before M5 stay local.
 
@@ -97,12 +97,12 @@ fixtures/               saved API responses for tests
 
 ## 6. Data sources and limits
 
-| Source | Limit | Rule |
-| --- | --- | --- |
-| Launch Library 2 | 15 requests each hour for each IP address | Use the development host `lldev.thespacedevs.com` during development. |
-| CelesTrak | One download for each data update (about 2 hours) | Never repeat a download early. Never retry after an error. Use the OMM JSON format. |
-| NOAA SWPC | No published limit | Poll at intervals of 5 minutes or more. |
-| NASA APOD | DEMO_KEY: 30 each hour, 50 each day | One request each day. Do not put a personal key in the code. |
+| Source           | Limit                                             | Rule                                                                                |
+| ---------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Launch Library 2 | 15 requests each hour for each IP address         | Use the development host `lldev.thespacedevs.com` during development.               |
+| CelesTrak        | One download for each data update (about 2 hours) | Never repeat a download early. Never retry after an error. Use the OMM JSON format. |
+| NOAA SWPC        | No published limit                                | Poll at intervals of 5 minutes or more.                                             |
+| NASA APOD        | DEMO_KEY: 30 each hour, 50 each day               | One request each day. Do not put a personal key in the code.                        |
 
 - Send a User-Agent that identifies Perigee with each request.
 - Do not run commands that call CelesTrak or Launch Library 2 production hosts without approval from the developer.
@@ -153,8 +153,8 @@ The UI looks like a control room display: dark, dense and quiet.
 
 ## 12. Skills in this repository
 
-| Skill | Use it when |
-| --- | --- |
+| Skill                           | Use it when                                                                      |
+| ------------------------------- | -------------------------------------------------------------------------------- |
 | `.claude/skills/plain-language` | You write text of any type: chat, documents, comments, commit messages, UI text. |
-| `.claude/skills/ui-restraint` | You review, plan or discuss the user interface, styles or components. |
-| `.claude/skills/rust-tutor` | The developer works on Rust code or asks a Rust question. |
+| `.claude/skills/ui-restraint`   | You review, plan or discuss the user interface, styles or components.            |
+| `.claude/skills/rust-tutor`     | The developer works on Rust code or asks a Rust question.                        |
